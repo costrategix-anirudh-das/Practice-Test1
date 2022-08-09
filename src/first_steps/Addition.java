@@ -9,16 +9,16 @@ public class Addition {
 		System.out.println(a+b);
 	}
 	
-	public void sub() {
+	public void mul() {
 		int a,b;
 		a=1;
 		b=2;
-		System.out.println(a-b);
+		System.out.println(a*b);
 	}
 	
 	public static void main(String[] args) {
 		Addition obj=new Addition();
 		obj.add();
-		obj.sub();
+		obj.mul();
 	}
 }
