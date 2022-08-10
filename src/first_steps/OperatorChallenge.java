@@ -20,6 +20,10 @@ public class OperatorChallenge {
         System.out.println("Remainder = " + rem);
         boolean noRem = (rem == 0) ? true : false;
         System.out.println("is No Remainder = " + noRem);
+        
+        // checks if (noRem) variable is false or not
+        // if false then below code block is executed
+        
         if (!noRem) {
             System.out.println("Got some remainder");
         }
