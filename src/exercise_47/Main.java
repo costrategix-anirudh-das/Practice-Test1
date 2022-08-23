@@ -1,3 +1,4 @@
+
 package exercise_47;
 
 import java.util.ArrayList;
